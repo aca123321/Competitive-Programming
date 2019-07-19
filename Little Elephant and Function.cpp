@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+main()
+{
+    int n,i;
+
+    cin>>n;
+
+    cout<<n<<" ";
+
+    for(i=1;i<n;i++)
+    {
+        cout<<i<<" ";
+    }
+}

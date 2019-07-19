@@ -1,0 +1,115 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define lli long long int
+#define pb push_back
+#define f first
+
+main()
+{
+    lli n,i,j,a,b,c,count=0,p,q,x,y;
+    cin>>n;
+    lli extral=0,extrar=0,extra[26]={0};
+    string l,r;
+    map<char, lli> ml,mr;
+    vector<lli> vl[27],vr[27];
+    vector<pair<lli,lli>> vans, vextra[27];
+    pair<lli,lli> temp;
+
+    cin>>l;
+    cin>>r;
+
+    for(i=0;i<n;i++)
+    {
+        if(l[i] == '?')
+        {
+            l[i] = '{';
+        }
+
+        if(r[i] == '?')
+        {
+            r[i] = '{';
+        }
+
+        ml[l[i]]++;
+        vl[int(l[i])-97].pb(i+1);
+
+        mr[r[i]]++;
+        vr[int(r[i])-97].pb(i+1);
+    }
+
+    for(i=0;i<26;i++)
+    {
+        a = (min(vl[i].size(),vr[i].size()));
+        b = (max(vl[i].size(),vr[i].size()));
+
+        for(j=0;j<a;j++)
+        {
+            temp = make_pair(vl[i][j],vr[i][j]);
+            vans.pb(temp);
+            count++;
+        }
+
+        if(a == vl[i].size())
+        {
+            extrar += b-a;
+            extra[i] = 1;
+        }
+        else
+        {
+            extral += b-a;
+        }
+    }
+
+    p = extral+vl[27].size();
+    x = vl[27].size();
+    q = extrar + vr[27].size();
+    y = vr[27].size();
+
+    cout<<(vl[27].size)<<" "<<(vr[27].size())<<endl;
+    cout<<x<<" "<<y<<endl;
+    cout<<extral<<" "<<extrar<<endl;
+
+    a = min(p,y);
+    b = min(q,x);
+
+    cout<<a<<" "<<b<<endl;
+
+    c = max(a,b);
+    count += c;
+
+    cout<<c;
+
+
+
+
+/*
+
+    if(c == a)
+    {
+        for(i=0;i<a;i++)
+        {
+
+        }
+    }
+
+
+
+
+
+
+
+    for(auto it: ml)
+    {
+        cout<<it.f<<" "<<it.s<<endl;
+    }
+    cout<<endl;
+
+    for(auto it: mr)
+    {
+        cout<<it.f<<" "<<it.s<<endl;
+    }
+    cout<<endl;
+*/
+
+}
