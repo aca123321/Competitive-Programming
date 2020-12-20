@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/isamu/Desktop/Aca/cp/Recursion practice.cpp
+bits/stdc++.h
+-
+
+C:/Users/isamu/Desktop/Aca/cp/practice.cpp
+iostream
+-
+limits.h
+-
+

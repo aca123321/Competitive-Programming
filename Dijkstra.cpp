@@ -3,68 +3,71 @@ using namespace std;
 
 #define lli long long int
 #define pb push_back
+#define f first
+#define sec second
 
-lli visited[1002]={0},start,en;
-lli dist[1002]={0};
-vector<lli> graph[1002];
+vector<lli> graph[100002];
+lli dist[100002],pre[100002];
+map<pair<lli,lli>, lli> w;
 
-
-void DFS_dijkstra(lli cur)
+void dfs(lli cur, lli d)
 {
-    lli node,n,i;
-
+    lli i,n,node;
     n = graph[cur].size();
-    visited[cur] = 1;
 
     for(i=0;i<n;i++)
     {
         node = graph[cur][i];
-        if(dist[node] > (dist[cur] + 1))
+        if(d+w[{cur,node}] < dist[node])
         {
-            dist[node] = (dist[cur] + 1);
-        }
-        if(visited[node] == 0)
-        {
-            DFS_dijkstra(node);
+            pre[node] = cur;
+            dist[node] = d+w[{cur,node}];
+            dfs(node,d+w[{cur,node}]);
         }
     }
 
-    return ;
 }
 
 main()
 {
-    lli n,i,a,num,b,ans;
+    lli i,n,m,a,b,c,node;
+    vector<lli> ans;
 
-    cout<<"Enter the number of edges of the tree\n";
-    cin>>n;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    cout<<"Enter the number of nodes\n";
-    cin>>num;
+    fill(dist+2,dist+100002,INT_MAX);
 
-    cout<<"Enter the edges\n";
-    for(i=0;i<n;i++)
+    cin>>n>>m;
+
+    for(i=0;i<m;i++)
     {
-        cin>>a>>b;
-
-        graph[b].pb(a);
+        cin>>a>>b>>c;
         graph[a].pb(b);
+        graph[b].pb(a);
+        w[{a,b}] = c;
+        w[{b,a}] = c;
     }
 
-    for(i=0;i<1002;i++)
+    dfs(1,0);
+
+    if(dist[n] != INT_MAX)
     {
-        dist[i] = INT_MAX;
+        node = n;
+        do
+        {   
+            ans.pb(node);
+            node = pre[node];
+        }       
+        while(node != 0);
+
+        for(auto it=ans.rbegin();it<ans.rend();it++)
+        {
+            cout<<*it<<" ";
+        }
     }
-
-    cout<<"Enter the starting node\n";
-    cin>>start;
-    dist[start] = 0;
-
-    DFS_dijkstra(start);
-    cout<<" dist itself "<<dist[1]<<endl;
-
-    for(i=1;i<=num;i++)
+    else
     {
-        cout<<i<<" "<<dist[i]<<endl;
+        cout<<-1;
     }
 }

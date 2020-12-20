@@ -1,74 +1,46 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-main()
-{
-    int n,i,j,*ans,a,max=INT_MIN,ind=0;
+#define lli long long int
+#define pb push_back
+#define f first
+#define sec second
 
-    cout<<"Enter the number of elements in the sequence\n";
-    cin>>n;
-    int arr[n],dp[n],pre[n]={0};
+int main()
+ {
+    lli n,i,a,b,c,m,j,k,t;
+    vector<lli> v;
+    cin>>t;
+    lli dp[1001];
 
-    for(i=0;i<n;i++)
+    while(t--)
     {
-        dp[i] = 1;
-        pre[i] = -1;
-    }
+        cin>>n;
+        v.clear();
 
-    cout<<"Enter the elements\n";
-    for(i=0;i<n;i++)
-    {
-        cin>>arr[i];
-    }
-
-    i = 0;
-
-    while(i<n)
-    {
-        j = 0;
-        while(j<i)
+        for(i=0;i<n;i++)
         {
-            if(arr[j]<arr[i] && (dp[j]+1) > dp[i])
+            cin>>a;
+            v.pb(a);
+        }
+        dp[0] = 1;
+        lli maxi,maxii=1;
+        for(i=1;i<n;i++)
+        {
+            maxi=1;
+            for(j=0;j<i;j++)
             {
-                dp[i] = dp[j]+1;
-                pre[i] = j;
+                if(v[j]<v[i] && dp[j]+1 > maxi)
+                {
+                    maxi = dp[j]+1;
+                }
             }
-            j++;
+            dp[i] = maxi;
+            maxii = max(maxii,maxi);
         }
-        i++;
-    }
-/*
-    for(i=0;i<n;i++)
-    {
-        cout<<i<<" "<<arr[i]<<" "<<dp[i]<<" "<<pre[i]<<endl;
-    }
-*/
-
-    for(i=0;i<n;i++)
-    {
-      //cout<<i<<" "<<arr[i]<<" "<<dp[i]<<" "<<pre[i]<<endl;
-
-        if(dp[i]>max)
-        {
-            max = dp[i];
-            ind = i;
-        }
-    }
-    cout<<endl;
-
-    ans = new int[dp[ind]];
-    a = ind;
-    ans[0] = arr[ind];
-    for(i=1;i<dp[ind];i++)
-    {
-        ans[i] = arr[pre[a]];
-        a = pre[a];
+        cout<<maxii<<endl;
     }
 
-    cout<<"The length of the LIS is "<<dp[ind]<<" and the subsequence is:\n";
-    for(i=0;i<dp[ind];i++)
-    {
-        cout<<ans[i]<<" ";
-    }
 
+	return 0;
 }

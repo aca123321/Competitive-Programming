@@ -1,83 +1,46 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-bool comp(string a, string b);
 
-main()
+void countDistinct(int [], int , int );
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+
+		int n,k;
+		cin>>n>>k;
+		int a[n];
+		for(int i=0;i<n;i++)
+		cin>>a[i];
+		countDistinct(a,k,n);cout<<endl;
+	}
+	return 0;
+}
+
+void countDistinct(int arr[], int k, int n)
 {
-    int i,j;
-    char k='0';
-    string str[3];
+    map<int,int> m;
+    int i;
 
-    for(i=0;i<3;i++)
+    for(i=0;i<k;i++)
     {
-        for(j=0;j<3;j++)
-        {
-           str[i][j] = k++;
-        }
+        m[arr[i]]++;
     }
-
-    for(i=0;i<3;i++)
+    cout<<m.size();
+    for(i=k;i<n;i++)
     {
-        for(j=0;j<3;j++)
+        m[arr[i]]++;
+        m[arr[i-k]]--;
+        if(m[arr[i-k]] == 0)
         {
-           cout<<str[i][j]<<endl;
+            m.erase(arr[i-k]);
         }
+        cout<<" "<<m.size();
     }
-
     cout<<endl;
-
-    sort(str,str+3,comp);
-
-    for(i=0;i<3;i++)
-    {
-        for(j=0;j<3;j++)
-        {
-           cout<<str[i][j]<<endl;
-        }
-    }
-
 }
 
 
-bool comp(string a, string b)
-{
-    int i=0,na,nb,min;
-    na = a.length();
-    nb = b.length();
-
-    min = (na<=nb)?na:nb;
-
-    cout<<"minimum length is "<<min<<endl;
-
-    while(1)
-    {
-        if(a[i] > b[i])
-        {
-            return true;
-        }
-
-        else if(a[i] < b[i])
-        {
-            return false;
-        }
-
-        else
-        {
-            if(i == min-1)
-            {
-                if(na >= min)
-                {
-                    return true;
-                }
-
-                else
-                {
-                    return false;
-                }
-            }
-
-        }
-
-        i++;
-    }
-}

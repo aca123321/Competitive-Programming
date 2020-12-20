@@ -15,7 +15,7 @@ main()
     arr = new int[n];
 
 
-    for(i=0;i<n;i++)
+    for(i=0; i<n; i++)
     {
         std::cin>>arr[i];
     }
@@ -41,7 +41,7 @@ main()
 
     if(flag == 0)
     {
-        for(i=1;i<(n-1);i++)
+        for(i=1; i<(n-1); i++)
         {
             temp = arr[i];
             if((arr[i-1] == temp -1)&&(arr[i+1] == temp+1))

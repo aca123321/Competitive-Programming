@@ -1,0 +1,10 @@
+-IC:\Strawberry\c\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++
+-IC:\Strawberry\c\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\x86_64-w64-mingw32
+-IC:\Strawberry\c\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\backward
+-IC:\Strawberry\c\lib\gcc\x86_64-w64-mingw32\8.3.0\include
+-IC:\Strawberry\c\include
+-IC:\Strawberry\c\lib\gcc\x86_64-w64-mingw32\8.3.0\include-fixed
+-IC:\Strawberry\c\x86_64-w64-mingw32\include
+-IC:\Users\isamu\Desktop\Aca\cp\CProject
+-target
+x86_64-pc-windows-gnu

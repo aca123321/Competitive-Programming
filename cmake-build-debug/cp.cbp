@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cp">
+				<Option output="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/cp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isamu/Desktop/Aca/cp/Learning_C++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cp"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cp/fast">
+				<Option output="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/cp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isamu/Desktop/Aca/cp/Learning_C++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cp/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeLists">
+				<Option output="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isamu/Desktop/Aca/cp/Learning_C++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeLists"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeLists/fast">
+				<Option output="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isamu/Desktop/Aca/cp/Learning_C++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeLists/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Recursion_practice">
+				<Option output="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Recursion_practice.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isamu/Desktop/Aca/cp/Learning_C++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recursion_practice"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Recursion_practice/fast">
+				<Option output="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Recursion_practice.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isamu/Desktop/Aca/cp/Learning_C++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recursion_practice/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/0-1 Knapsack Problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/1 22 333 4444 55555 pyramid.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/266A Stones on the table.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/A Game of Robots.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/A Prank.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/A Small Array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/A Tale of Two Lands.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/A pile of stones.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/ASCII sum.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Accordion.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Addition Errors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Addition and Subtraction.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Adjacent Bit Counts.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Age Calculator.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Airport.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Alarm Clocks Everywhere.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/All n bit combinations.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/All the Vowels Please.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Almost All Divisors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Almost Equal.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Alternating Current.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Alyona and copybooks.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Alyona and flowers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Alyona and mex.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Aman and divisors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Amusing Joke.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Anastasia and pebbles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Anna, Svyatoslav and Maps.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Anton And Danik.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Anton and letters.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Apply loves one - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Appy and Contest.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Appy and balloons.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Appy loves one.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Archer.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Area queries.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Array 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Array K-Coloring.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Array Stabilization.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Arrival of the general.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Average Superhero Gang Power.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ayoub and Lost Array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/B Tree.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/BFS.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/BIt++.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bad Prices.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bags and Balls.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Balanced Team.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Balanced Ternary String.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Banker&apos;s Algorithm.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bear and Big Brother.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful Array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful Lyrics.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful Partitions.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful Year.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful garland up.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful garland.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Beautiful matrix.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Berland University.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Best Subsegment.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/BewSU Ball.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bicycle Chain.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Big Segment.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Binary Palindromes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Birthday - vlad cf.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Birthday.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bisection.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bishu and soldiers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Book Reading.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Boolean Parenthesization Problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Boredom.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Borze.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/BowWow and the Timetable.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Boxers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Boy or Girl.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Boys and Girls.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Breaking Bad.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Broken Keyboard.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Brutality.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Buffet.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Build a Contest.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Building palindromes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Business trip.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Byte to bit.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Bytelandian Gold Coins.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/CMakeLists.txt">
+			<Option target="CMakeLists"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/COW.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/COW.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/CV.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Caesar cipher decoder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Caesar cipher encoder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Calculating function.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Camp or not.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Candies - atcoder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Candies.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Capital Movement.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Catowice City.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chat room.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cheap travel.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cheating on Queue.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and An Ideal Problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and Digit Jumps.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and Eid.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and Interactive Contests.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and Periodic Sequence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and Proxy.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and Secret Ingredients .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and adventures.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and circles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and happiness 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and happiness.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and operations.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and problem setting.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and restaurant.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and ridges.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and serves.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and strange addition.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef and typing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef has a lazy team.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chef, Primes and Trees.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chefland and Average Distance.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chips Moving.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chloe and the sequence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Chocolates.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Choose Two Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Choosing from Buckets.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Choosing teams.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Christmas Spruce.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Circle Metro.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Circle of Students.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Circular Dance.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Codehorses T-shirts.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Coffee and Coursework (Easy version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Coins.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Colored Boots.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Colored Path.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Coloring grids.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Common Divisors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Comparing Strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Complete the Projects (easy version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Compote.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Connect Three.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Connection and Disconnection.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Constanze&apos;s Machine.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Contention kickstart.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Conversions.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Counting sort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cover it.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Covered Points Count.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Creating the contest.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Creative Snap.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cryptopangrams.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cut ribbon.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cute Sequences.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Cutting out.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/DFS-new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/DFS.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/DFS.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/DZY Loves Chessboard.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Daniel and Spring Cleaning.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Definite game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Deque.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Design Tutorial Learn from Math.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Destroy the Colony.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Detective Book.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dice Rolling.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Digital root.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Digits Sequence Dividing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dijkstra.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dima and a Bad XOR.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dima and friends.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Discount in a Shop.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Distinct Pairs - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Distinct Pairs.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Disturbed people.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Div Times Mod.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Diverse Garland.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Diverse Strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Divide it!.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Divisor Subtraction.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Divisors of Two Integers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Doggo recolouring,cpp.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Doggo recolouring.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Doors Breaking and Repairing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Double cola.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Down or Right.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dragons.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Draupnir.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Draw!.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Drawing Lines.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dreamoon and wifi.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Drinks.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dubstep.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Dummy Palindromic Strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Easy Chess.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Easy Number Challenge.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Easy problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Effective Approach.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Egor and an RPG game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ehab Fails to Be Thanos.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ehab Is an Odd Person.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ehab and a Special Coloring Problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Elephant.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Emotes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Equal Rectangles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Equalize Them All.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Equalizing by Division (easy version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Equalizing by Division (hard version) - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Equalizing by Division (hard version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Euclid&apos;s gcd.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Even Substrings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Even digits - hashcode 18.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Even digits - hashcode 18.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Even odds.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Event.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Expansion coefficient of the array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Expression.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/FB Hacker Cup 45 points  first pgm.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/FB Hacker Cup.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/FIFO.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Face Produces Unhappiness.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Fancy Quotes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Farewell party.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Fence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Fencing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Fight with Monsters.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Filling Shapes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Find Divisible.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Find square.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Find sum L2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Finding teammate shaurya.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Finding teammate.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Flipping Game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Flood Fill.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Football.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Foregone solution - codejam.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Form Biggest Number L2 .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Fox and Box Accumulation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Fox and snake.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Friend or Girlfriend.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Frog 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Frog 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Frog jumping.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Frog jumping.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Game 23.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Game of robots.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Game with Telephone Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Game with modulo.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Game with sticks.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Game with string.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Games.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Gas Pipeline.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Gennady and a card game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Geometric Progression Triplet.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/George and accomodation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Good String 560 div 3.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Good array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Good median.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Good ol&apos; Numbers Coloring.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Good string.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Google q1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Google q2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Got Any Grapes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Gourmet Cat.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Graph Without Long Directed Paths.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Graphs.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Gravity flip.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Grid 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Grid game - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Grid game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Grow The Tree.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Guddu on a Date.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/HLTV ratings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/HQ9+.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hard Sequence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hate A.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Have you met Ted.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hay Points.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Heapsort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hello World.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Help lost robot.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Helping Hiasat.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hexadecimal&apos;s Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hexadecimal&apos;s theorem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/High School L2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hit the Lottery.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Holi on Graph.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Huffman coding.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Huffman coding.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hulk.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Hungry Sequence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/I wanna be the guy.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/IQ Test.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/I_love_aca123321.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ilya and Queries.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ilya and a Colorful Walk.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/In Search of an Easy Problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Increase and Decrease.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Increasing Subsequence (easy version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Increasing by Modulo.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Inscribed Figures.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Insertionsort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Insomnia cure.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Integer Overflow.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Integer Points.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Integer Sequence Dividing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Interesting Drink.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Is it a tree .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Is your horseshoe on the other hoof.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Jeff and Digits.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Jeff and Periods.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Journey.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Jzzhu and Children.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Kefa and Park .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Kefa and first steps.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Key races.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Kirk and a Binary String (easy version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Kitahara Haruki&apos;s Gift.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Knapsack 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Knapsack 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Knight Chess.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Knockout Jump.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Kruskal.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/LCM and HCF.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/LCS.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/LRU 2.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/LRU 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/LRU 3.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/LRU.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Largest region in matrix.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lazyland.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/Classes and Objects.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/ConstructorAndDestructor.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/pairwise_swapping_nodes_in_linked_list.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/person_class.h">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/person_class_definition.h">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/practicing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Learning_C++/using_Person_class.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Letter.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Letters Rearranging.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Light It Up-new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Light It Up.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lights Out.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Little Elephant and Bits.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Little Elephant and Function.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Little Girl and Game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Little elephant and rozdil.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lonely Vijju.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Long Number.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Longest Common Subsequence LCS.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Longest Path.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Longest path in a tree.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lose it!.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lost Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Love A.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lucky Number Game - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lucky Number Game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lucky Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Lucky division.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/MCM.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Magic Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Magic Numebrs.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Magic Powder - 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Magic Ship.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Magician and chef.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Magnets.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Make Product Equal One.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Make Them Equal.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Make it equal.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Manhattan crepe cart.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Many Equal Substrings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Many Slimes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Map Queries.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Margarite and the best present.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Masha and two friends.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Match Points.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Math.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Max Candies.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Max and Electrical Panel.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Max power.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Maxim and Biology.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Maximal Continuous Rest.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Maximal Intersection.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Maximal Value.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Maximise product.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Maximum Remaining.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Meme problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Merge it!.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mergesort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Metro.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Middle of the Contest.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mike and palindrome.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimizing the String.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum Integer - karankap.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum Integer - konark.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum Integer.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum Sum Partition.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum Triangulation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum Value Rectangle.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minimum number of jumps.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minion chef and bananas Shaurya.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Minion chef and bananas.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mishka and the Last Exam.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mishka and the Last Exam.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mislove Has Lost an Array.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Moore&apos;s law.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Movie Ticket Reservation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Moving Segments-new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Moving Segments.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mr Kitayuta the Treasure Hunter.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Mr Robot beats time.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/NN and the Optical Illusion.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Naman and sum.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Name problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nastya Is Buying Lunch.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nastya Is Playing Computer Games.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nastya Is Reading a Book.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nastya Is Transposing Matrices.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nearly lucky number.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Neighbours and New Year Party - codegladiators.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Neko Performs Cat Furrier Transform.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Neko finds grapes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/New Year Transportation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/New Year and the Christmas Ornament.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/New Year and the Sphere Transmission.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/New Year and the Treasure Geolocation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/New building for SIS.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/New year candles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/News Distribution.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/NiKo and chocolates 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nice Garland.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nilakshi the Rockstar codechef.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Nirvana.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Number of Coins.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Numbers on the Chessboard.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Obscura - letter frequency of pangram.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Odd Sum Segments.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Olofmeister and Bit Query.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Operator overloading.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Optimal Replacement.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Optimal Strategy For A Game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Paint the wall.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pair of numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pair of toys.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pairs.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Palindromic Matrix.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Palindromic Paths.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Palindromic Twist.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pangram.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Panoramix&apos;s Prediction.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Parallelepiped.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Parcels kickstart.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Parity Alternated Deletions.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Parity.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Party.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pashmak and Flowers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Password.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pen Pineapple Apple Pen.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Perfect Permutation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Petr and Book.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Petr and a Combination Lock.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Petya and origami.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Petya and strings.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Petya and strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Philosophers stone.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pigeon d&apos;Or.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Play carrom.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Playlist.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Plus from Picture.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Polandball and forest.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Police Patrol.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Polycarp Restores Permutation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Polycarp Training.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Polycarp&apos;s New Job.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Polygon for the Angle.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Powerful division.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Powers Of Two.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Precious stones codechef.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Prefix Sum Primes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Prefixes and Suffixes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Preparation for International Women&apos;s Day.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Present from Lena.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Presents.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Prim&apos;s Algorithm.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Prim&apos;s algorithm up.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Prime Path .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Print Pattern.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Problem for Nazar.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Protected access specifier.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Puzzles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Pythagorean Theorem II.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Qualifying to Pre-elimination.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Queen.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Queue in the Train.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Quicksort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/RAG.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Radix sort.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Rail Fence cipher decoder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Rail Fence cipher encoder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Range update L2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ratio.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Reachable Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Reconnaissance 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Recover it.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Recursion_practice.cpp">
+			<Option target="cp"/>
+			<Option target="Recursion_practice"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Reduce to One.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Remainder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Repeating Cipher.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Restoring Three Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Restricted RPS.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Reverse a Substring.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Right-Left Cipher.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Robot Programming Strategy.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Rod cutting problem.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Roger and tree.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Roman and Browser.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/SRTF-new.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/STL map.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sail.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Salary.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sale.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Salem and sticks.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sea Battle.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Second largest element.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Select Training Set.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Set Queries.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shake Shake Shaky.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shichikuji and Power Grid.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shooshuns and Sequence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shortest Common Supersequence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shower Line.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shrinking Space.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Shuffle Hashing.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Silent Classroom.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Single Wildcard Pattern Matching.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Slimes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Soldier and bananas.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sonic And K - Separated Elements.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sonic and Circles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sonya wants more equal numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sort a structure L2.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sort a structure L2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Special Sort.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Splitting into digits.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Spread the word.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Square Area.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Square Cube.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Square Filling.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Stages.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Staircases.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Stas and the Queue at the Buffet.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Stewie and screen size.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Stock Arbitraging.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Stones.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/String Coloring (easy version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/String Compression.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/String Paths.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/String to int and vice-versa.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Stud max buoy.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Subset Sum Problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Substring Removal.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sum of Digits hackerearth.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Sum of digits.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Summation over nCr.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Supercentral Point.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Superhero Transformation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Swag Subsets.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/System of Equations.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/TEX Quotes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/TL.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Tanya and Candies.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Tape.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Taxi.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Team.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Teams forming.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Technogoblet of Fire.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Telephone number.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Thanos sort.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The Doors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The New Year Meeting Friends.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The Pleasant Walk.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The Pleasant Walk.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The Retaliation of Reality.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The World Is Just a Programming Task (Easy Version).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The minimal unique substring.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The number of positions.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The party and sweets.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/The proposal.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Theatre square.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Three Religions.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Tiling Challenge.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Time trickles slowly but surely.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Tower of Hanoi.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Trailing Loves.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Training kisckstart.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Tram.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Translation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Tree _order.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Truth and Dare.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Twins.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Two Bags of Potatoes.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Two Buttons.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Two Shuffled Sequences.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Two Teams.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Two distinct points.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ugly Pairs.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Ultra-Fast Mathematician.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Uniform String.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Unlucky Ticket.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Untitled1.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vacation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Valid BFS.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Valid Triangles.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vanya and Lanterns.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vanya and fence.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vasya and Binary String.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vasya and chocolates.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vasya and isolated vertices.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vasya and socks.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Views matter up up.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Views matter up.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Views matter.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Vitya in the Countryside.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/WIN or LOSE - codegladiators.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Waiting in queue shaurya.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Waiting in queue.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Walking Robot.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Warangal restaurants.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Water Buying.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Weakened Common Divisor.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Weapon Value.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Weird Coins.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Weird coins.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Winner.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Without Whitespaces.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Word capitalisation.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Word.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Wrong answer - finding teammates.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/XOR! Wait for it .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Xenia and Divisors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Xenia and ringroad.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Yalalovichik Numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Yaroslav and Permutations.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Yet Another Array Partitioning Task.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Yet Another Walking Robot.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/You can go your own way.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Young physicist.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Yuhao and a parenthesis.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Zero Quantity Maximization.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/Zuhair and Strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/abhi.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/aca123321.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/activity selection.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/amex garden.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/amex riddle.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/amex string.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/array of strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/arrow member selection operator.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/backslash n string.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/bfs and dfs.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/bucket_sort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/bucketsort.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/buying a laptop.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/cAPS LOCK.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/chandu and his gf.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/chocolates - dua.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/clash of code.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/class template.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/classes intro.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/codeforces practice.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/codeforces practice.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/combination.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/composition1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/constructors.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/copy constructor.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/cupboards.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/deconstructor or destructor.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/destructor.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/euclidean_distance_for k-means.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/exception handling.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/factorial.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/figureful.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/file handling.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/friend function.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/friend function2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/inheritance 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/inheritance.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/is it a tree - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/journey to the moon.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/k-string.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/large numbers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/lcs atcoder.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/little elephant and problem.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/longest increasing SUBSEQUENCE.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/magical binary strings.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/mathophobia.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/member initialisers.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/mod.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/new PE 3.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/next round.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/no pairs allowed.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/nonstdinput.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/obscura6 - new.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/obscura6.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/oop practice.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/operator overloading 2 (second method).cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/operator overloading 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/operator overloading 3.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/order of execution of constructors and destructors when inherited.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/passing values to constructor of base class from derived class.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/polymorphism and virtual function.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/power.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/prac stl.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/prac.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/prac.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/praccc.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/pracnew.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/practice 1.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/practice 2.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/practice 3.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/pth factor.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/queue at the school.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/range update.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/reduction game.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/second method String to int and vice-versa .cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/sin x.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/soft drinking.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/sort the urls.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/sorting with structures.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/spanning tree with maximum degree.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/square sum.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/string task.c">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/sudoku solver.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/sum_of_elements_from_index_l_to_r.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/sums in a triangle.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/swapping using reference.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/this keyword.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/unique-abhimanyu.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/upper bound.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/vector or array of user given size using new operator.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/vowels.cpp">
+			<Option target="cp"/>
+		</Unit>
+		<Unit filename="C:/Users/isamu/Desktop/Aca/cp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

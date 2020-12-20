@@ -2,56 +2,51 @@
 using namespace std;
 
 #define lli long long int
+#define pb push_back
+#define f first
+#define sec second
 
 main()
 {
-    lli t,n,m,i,j,*arr,k,sum,a,ans;
-
+    lli n,i,a,t,b,c,j,k;
+    vector<lli> v;
     cin>>t;
 
     while(t--)
     {
         cin>>n>>k;
-
-        sum = 0;
-        ans = 0;
-
-        arr = new lli[n];
+        lli arr[n];
 
         for(i=0;i<n;i++)
         {
             cin>>arr[i];
-        }
-
-        sort(arr,arr+n);
-
-        for(i=0;i<n;i++)
-        {
-            if(arr[i] > k)
+            if(arr[i]>k)
             {
-                j = a = i;
-                break;
+                v.pb(arr[i]-k);
             }
         }
 
-        while(j < n)
-        {
-            sum += arr[j] - k;
-            arr[j] = k;
-            j++;
-        }
 
-        ans = (k*(n-a)) + (sum%2);
 
-        for(i=0;i<a;i++)
-        {
-            ans += arr[i];
-        }
-
-        cout<<ans<<endl;
     }
-
 }
 
-
-
+/*
+    i=0;
+    while(i<n-1)
+    {
+        if(arr[i]>k)
+        {
+            a = arr[i]-k;
+            arr[i] = k;
+            arr[i+1] -= a;
+        }
+        i++;
+    }
+    b=0;
+    for(i=0;i<n;i++)
+    {
+        b += arr[i];
+    }
+    cout<<b<<endl;
+*/

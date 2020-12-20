@@ -1,0 +1,5 @@
+C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeFiles/cp.dir
+C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeFiles/CMakeLists.dir
+C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeFiles/Recursion_practice.dir
+C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/isamu/Desktop/Aca/cp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
